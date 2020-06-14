@@ -60,8 +60,14 @@ var password2 = "im23s"
 var isKuwaiti2 = false
 
 //Person 3
-
-
+var firstName3 = "Medhat"
+var lastName3 = "Alnosany"
+var email3 = "medhatalnosany@gmail.com"
+var phoneNumber3 = "50548834"
+var age3 = 45
+var country3 = "Egypt"
+var area3 = "Cairo"
+var password3 = "medhat04"
 var isKuwaiti3 = false
 
 
