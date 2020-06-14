@@ -5,12 +5,12 @@
  
  */
 
-let name = "Ahmad"
+var name = "Ahmad"
 
 name = "Salem"
 
 
-var myWeight = 60
+var myWeight = 60.0
 var FriendWeight = 80.5
 var height = 1.5
 
@@ -38,30 +38,31 @@ var bmi = myWeight * (height * height)
  */
 
 //Person 1
-var firstName1 = ""
-var lastName1 = ""
-var email1 = ""
-var phoneNumber1 = ""
-var age1 = 0
-var country1 = ""
-var area1 = ""
-var password = ""
+var firstName1 = "Ali"
+var lastName1 = "Mohammad"
+var email1 = "Ali05@gmail.com"
+var phoneNumber1 = "99068010"
+var age1 = 24
+var country1 = "Bahrain"
+var area1 = "Al Muharraq"
+var password = "hjhjk2"
 var isKuwaiti = false
 
 //Person 2
-
-
-
-
-
-
-
-
-
+var firstName2 = "Fahad"
+var lastName2 = "Adnan"
+var email2 = "Fahooood2@gmail.com"
+var phoneNumber2 = "99931077"
+var age2 = 15
+var country2 = "Oman"
+var area2 = "Salalah"
+var password2 = "im23s"
+var isKuwaiti2 = false
 
 //Person 3
 
 
+var isKuwaiti3 = false
 
 
 
@@ -81,4 +82,25 @@ var isKuwaiti = false
  * قارن اذا عمر الاشخاص لا يساوي  ١٧
 
  
+ 
  */
+
+age1 == age2 || age1 != age2
+age1 == age3 || age1 != age3
+age2 == age3 || age2 != age3
+
+area1 == area2 || area1 != area2
+area1 == area3 || area1 != area3
+area2 == area3 || area2 != area3
+
+age1 > 18 && age1 >= 18
+age2 > 18 && age2 >= 18
+age3 > 18 && age3 >= 18
+
+age1 < 18 && age1 <= 18
+age2 < 18 && age2 <= 18
+age3 < 18 && age3 <= 18
+
+age1 == 17 && age2 == 17 && age3 == 18
+
+age1 != 17 && age2 != 17 && age3 != 17
